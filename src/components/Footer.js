@@ -12,9 +12,7 @@ function Footer() {
       justifyContent="center">
       <Grid item xs={12} md={12}>
         <img className='mx-auto d-block mb-3'
-          style={{
-            width: "7%",
-          }} src={logo} alt="" />
+              style={{width: "7%" }} src={logo} alt="Logo" />
       </Grid>
       <Grid item xs={12} md={12}>
         <Grid container

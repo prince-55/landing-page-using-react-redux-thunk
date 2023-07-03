@@ -4,6 +4,7 @@
         color: $mycolor;
         font-weight: 700;
     }
+
     .btn-see {
         color: #6e6e6e;
         font-weight: 700;
@@ -12,6 +13,12 @@
         &:hover {
             background-color: transparent !important;
             outline: none;
+        }
+    }
+
+    @media only screen and (max-width: 475px) {
+        .MuiBox-root {
+            flex-direction: column;
         }
     }
 
@@ -68,7 +75,7 @@
     overflow-y: scroll;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     img {
         width: 17rem;
         height: 11rem;
@@ -91,10 +98,9 @@
         padding-bottom: 5px;
     }
 }
-@media only screen and (max-width : 800px) {
-    #modal-box{
-        left:13%;
-        width:74%;
+@media only screen and (max-width: 800px) {
+    #modal-box {
+        left: 13%;
+        width: 74%;
     }
 }
-

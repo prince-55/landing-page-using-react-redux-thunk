@@ -31,15 +31,18 @@ function About() {
     <>
       <Container id="about" className='mb-5'>
         <Box className="d-flex p-5">
-          <div className='col-sm-9 col-md-10'>
+          <div className='col-sm-12 col-md-10'>
             <Typography variant="h6">Users</Typography>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-          <Button className=' btn-see col-sm-3 col-md-2' onClick={() => navigate('/datatable', { state: userList })}>See All</Button>
+          <Button className=' btn-see col-sm-12 col-md-2' 
+                  onClick={() => navigate('/datatable', { state: userList })}>
+                  See All</Button>
         </Box>
-        {loading ? (<h3 style={{ textAlign: 'center' }}>Loading pls wait...</h3>) : error ? error : <Grid container spacing={2}
+        {loading ? (<h3 style={{ textAlign: 'center' }}>Loading pls wait...</h3>) : error ? error 
+        : <Grid container spacing={2}
           direction="row"
           justifyContent="space-evenly"
           alignItems="center">
