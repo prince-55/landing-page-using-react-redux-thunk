@@ -1,0 +1,27 @@
+#service {
+    $mycolor: #6c38ac;
+    h4 {
+        color: $mycolor;
+        font-weight: 700;
+    }
+    img {
+        width: 100%;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .btn-more {
+        background-color: $mycolor;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        text-transform: none;
+    }
+    @media only screen and (max-width: 900px) {
+        .service-text {
+            text-align: -webkit-center;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+}

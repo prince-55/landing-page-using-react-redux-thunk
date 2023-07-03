@@ -1,0 +1,15 @@
+.data-table {
+    padding: 5px;
+    margin-top: 10px;
+}
+.btn-cross {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #ff8080;
+
+    svg {
+        width: 50px;
+        height: 40px;
+    }
+}

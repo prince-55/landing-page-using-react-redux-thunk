@@ -1,0 +1,2 @@
+export const OPEN_PROFILE = "OPEN_PROFILE";
+export const CLOSE_PROFILE = "CLOSE_PROFILE";

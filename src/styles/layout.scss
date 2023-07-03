@@ -1,0 +1,26 @@
+//==========header========
+.logo {
+    width: 37%;
+}
+.nav-link {
+    cursor: pointer;
+}
+.header {
+    z-index: 3;
+    position: fixed !important;
+    width: 100% !important;
+    .nav-link.active {
+        color: #6c38ac !important;
+        font-weight: bold;
+    }
+}
+// ======foooter=========
+a {
+    cursor: pointer;
+}
+a.active {
+    cursor: pointer;
+    color: #6c38ac !important;
+    text-decoration: none !important;
+    font-weight: 700;
+}
