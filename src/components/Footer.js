@@ -7,20 +7,19 @@ import './../styles/layout.scss';
 
 function Footer() {
   return (
+    <div id='footer'>
     <Grid container
       justifyContent="center">
       <Grid item xs={12} md={12}>
         <img className='mx-auto d-block mb-3'
           style={{
             width: "7%",
-            position: "relative",
-            left: "-2.2rem"
           }} src={logo} alt="" />
       </Grid>
       <Grid item xs={12} md={12}>
         <Grid container
           direction="row"
-          justifyContent="space-evenly"
+          justifyContent="space-around"
           alignItems="center"
           color={"black"}
           mb={5}>
@@ -30,6 +29,7 @@ function Footer() {
         </Grid>
       </Grid>
     </Grid>
+    </div>
   )
 }
 

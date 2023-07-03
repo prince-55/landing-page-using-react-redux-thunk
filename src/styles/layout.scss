@@ -15,6 +15,7 @@
     }
 }
 // ======foooter=========
+#footer{
 a {
     cursor: pointer;
 }
@@ -23,4 +24,9 @@ a.active {
     color: #6c38ac !important;
     text-decoration: none !important;
     font-weight: 700;
+}
+.MuiGrid-root.MuiGrid-item{
+    width: 30%;
+    text-align: center;
+}
 }
